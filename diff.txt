@@ -1,0 +1,14 @@
+In line number 144 of your output:
+The output should be:
+    Unable to fill Rania A., 2-Room Home Office and Bedroom [Bed]
+^
+But your output is: 
+	Unable to fill Rania A., 2-Room Home Office and Bedroom [Bed]
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [Space] ASCII code(32)
+but you printed
+  [Tab (\t)] ASCII code(9)
+
